@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon -e js,graphql src/index.js"
   },
   "repository": "https://github.com/github:Nargonath/learn-to-graphql.git",
   "author": "Jonas Pauthier <jonas.pauthier@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "graphql-yoga": "^1.14.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   }
 }
