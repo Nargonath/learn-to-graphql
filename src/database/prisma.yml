@@ -1,0 +1,3 @@
+endpoint: https://eu1.prisma.sh/jonas-pauthier-3b900f/database/dev
+datamodel: datamodel.graphql
+secret: mysecret123
