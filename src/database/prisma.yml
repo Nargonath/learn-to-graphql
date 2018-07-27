@@ -1,3 +1,7 @@
 endpoint: https://eu1.prisma.sh/jonas-pauthier-3b900f/database/dev
 datamodel: datamodel.graphql
 secret: mysecret123
+
+hooks:
+  post-deploy:
+    - graphql get-schema --project database

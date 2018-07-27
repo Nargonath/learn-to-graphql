@@ -9,7 +9,8 @@
   "author": "Jonas Pauthier <jonas.pauthier@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.14.12"
+    "graphql-yoga": "^1.14.12",
+    "prisma-binding": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
